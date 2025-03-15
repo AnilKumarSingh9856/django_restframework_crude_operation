@@ -37,7 +37,5 @@ def studentDetailsView(request, pk):
         serializer = StudentSerializer(student)
         return Response(serializer.data, status=status.HTTP_200_OK)
     elif request.method == 'DELETE':
-        if student.DoesNotExist:
-            return Response(status=status.HTTP_404_NOT_FOUND)
         student.delete()
         return Response({"message": "Student deleted successfully"}, status=status.HTTP_204_NO_CONTENT)
