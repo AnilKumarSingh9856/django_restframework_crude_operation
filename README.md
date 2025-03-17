@@ -1,11 +1,11 @@
-📌 Django REST Framework CRUD Operations
-This project demonstrates CRUD (Create, Read, Update, Delete) operations using Django REST Framework (DRF) with different types of views, including:
+#📌 Django REST Framework CRUD Operations
+#This project demonstrates CRUD (Create, Read, Update, Delete) operations using Django REST Framework (DRF) with different types of views, including:
 
-Function-based views (@api_view)
-Class-based views (APIView)
-Mixins
-Generic views & ViewSets
-It also includes pagination, filtering, ordering (basic to advanced), and serialization (basic to nested) but does not use authentication.
+#Function-based views (@api_view)
+#Class-based views (APIView)
+#Mixins
+#Generic views & ViewSets
+#It also includes pagination, filtering, ordering (basic to advanced), and serialization (basic to nested) but does not use authentication.
 
 📂 Apps in This Project
 ✅ Blogs - CRUD using various API views
